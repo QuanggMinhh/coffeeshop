@@ -1,0 +1,39 @@
+
+.wrapper{
+    border: 1px solid black;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Viền mờ */
+    padding: 15px;
+}
+
+.sidebar .nav-link {
+    margin-bottom: 10px;
+    
+}
+
+.sidebar .nav-link {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
